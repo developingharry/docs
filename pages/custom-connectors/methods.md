@@ -17,4 +17,4 @@ tags: [connector-creation]
 *   **RequestFormat **/ **ResponseFormat **– this contains the request or response message format Fields. Each Field has ConnectorField, SystemField, and DisplayName. ConnectorField is the field name used in the connector. If a field is inside an array, it needs to be defined as \[Array\].Field. Multiple-dimension arrays can be defined as \[Array1\].\[Array2\].Field, etc. What if there is a field called \[Array2\].Field inside an Array1? We use \[Array1\].\\Array2.Field\\ to explicitly define Array2.Field as a field name. SystemField is the system name for the field. We use PascalCasing for system names as a convention. DisplayName is the name shown in the Cyclr UI.
 *   **Fields **– the names of fields to use in the API call. Fields must have been defined in the connector to appear here. Name, TriggerName, IdentifierKey, and HumanReadableKey are needed.
 
-[Take a Look at Custom Connector Examples](./examples)
+[Take a Look at Custom Connector Examples](./custom-connector-examples)
