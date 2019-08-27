@@ -54,4 +54,4 @@ Your connector needs an icon.
 *   Minimum: square @ 256px x 256px
 *   24-bit PNG on a transparent background
 
-[Learn About Custom Connector Parameters & Triggers ](./parameters-and-triggers)
+[Learn About Custom Connector Parameters & Triggers ](./custom-connectors-parameters-triggers)
