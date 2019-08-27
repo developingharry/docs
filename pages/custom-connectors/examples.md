@@ -217,4 +217,4 @@ The other example is taken from the ZohoCRM connector. You can see how parameter
     }
 {% endraw %}
 
-[Learn About Custom Connector Fields](./fields)
+[Learn About Custom Connector Fields](./custom-connector-fields)
