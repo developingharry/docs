@@ -88,4 +88,4 @@ To authenticate your requests you need to include the access token in the Author
 Authorization: Bearer {AccessToken}
 ```
 
-[View Cyclr’s API Endpoints](./api-endpoints)
+[View Cyclr’s API Endpoints](./cyclr-api-endpoints)
