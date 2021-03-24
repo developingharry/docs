@@ -39,6 +39,8 @@ Content-Type: application/x-www-form-urlencoded
 client_id={ClientID}&client_secret={AccountID}&grant_type=password&username={username}&password={password}
 ```
 
+> NB. In both of these calls, the ``client_id`` etc go in the _body_ of the call - they are not added to the endpoint.
+
 - **yourCyclrInstance** – your Cyclr instance URL. This could be one of the following: *api.cyclr.com* if your Cyclr account is hosted on our US instance; *api.cyclr.uk* if it's on our UK instance; your own domain if your Cyclr instance is self-hosted.
 - **client_id** – the client ID of the Partner. This can be found in the Cyclr Console.
 - **client_secret** –  
